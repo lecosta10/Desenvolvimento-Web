@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- Comentários -->
+<html>
+    <head>
+             <meta charset="UTF-8" />
+             <title>Spazio Dell Mato</title>
+             <link rel="stylesheet" type="text/css" href="Estilo/index.css" />
+             <link rel="icon" href="Imagens/h.jpeg"/>
+             <link href="https://fonts.googleapis.com/css2?family=Taviraj:wght@600&display=swap" rel="stylesheet">
+             <meta name="viewport" content="width=device-width, initial-scale=1" />
+             <script src="scripts/scripts.js"></script>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#top">Home</a></li>
+                <li><a href="#tend">Tendências</a></li>
+                <li><a href="#dia">Dia Da Noiva</a></li>
+                <li><a href="#cont">Contato</a></li>
+                
+
+            </ul>
+        </nav>
+       
+        <div class="fundo1">
+            
+        <div class="destaque">Spazio Dell Mato</div>
+        <footer>
+            Desenvolvido por Leticia Vieira Costa - GU3013464-Guarulhos
+        </footer>
+        </div>
+        
+
+        <div class="conteudo texto">
+            <h3>Spazio Dell Mato</h3>
+            Com o intuito de oferecer sempre os melhores serviços, os salões contam com os principais produtos do mercado mundial e um time de renomados profissionais dispostos a melhorar a autoestima de nossos clientes.<br>
+            O Spazio Dell Mato é reconhecido por ditar tendências e introduzir novas ideias, uma vez que alia informação e excelência em atendimento à tecnologia, luxo, moda e beleza, conceitos presentes no dia a dia da rede.
+        </div>
+       
+        <div id="tend" class="fundo2">
+            <div  class="destaque">Tendências</div>
+        </div>
+        <div  class="conteudo">
+            <h3>Tendências</h3>
+            <video src="imagens/mpa.mp4" class="video" controls></video>  
+            <div class="fotos_animadas"></div>
+
+        </div>
+
+        <div id="dia" class="fundo3">
+            <div class="destaque">Dia Da Noiva</div>
+        </div>
+
+
+            <img id="img_destaque" src="Imagens/despojado.jpeg" alt="Destaque" title="Destaque"/>
+            
+           <p id="p_destaque">Escolha um Penteado</p>
+        <div class="container">
+            <div> <img src="Imagens/let.jpeg" onmouseover="funTroca(this.alt,this.src)" alt="Seu Dia" > </div>
+            <div> <img src="Imagens/prince.jpeg" onmouseover="funTroca(this.alt,this.src)" alt="Penteado De Princesa" > </div>
+            <div> <img src="Imagens/x.png" onmouseover="funTroca(this.alt,this.src)" alt="Semi Solto" > </div>
+            <div> <img src="Imagens/princesa.jpeg" onmouseover="funTroca(this.alt,this.src)" alt="Princesa" > </div>
+            <div> <img src="Imagens/spa.jpg" onmouseover="funTroca(this.alt,this.src)" alt="Spa" > </div>   
+        </div>
+
+        </div>
+        <div id="cont" class="fundo4">
+            
+            
+        <h2>Contato</h2>
+       
+        
+            <form method="GET">
+                <p>Entre em Contato Conosco</p>
+                <input type="text" id="nome" name="nome" maxlength="38" required placeholder="Nome"/>
+                <input type="text" id="email" name="email" maxlength="38" required placeholder="E-mail"/>
+                <input type="text" id="fone" name="fone" maxlength="17" required placeholder="Fone"/>
+
+                <input type="submit" class="botao" value="Enviar"/>
+               
+             </form>
+        </div>
+
+    </body>
+</html>
